@@ -219,15 +219,56 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.international-section h3{
+    margin-left: -80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .international-section .part-1 .card-1{
     display: flex;
     justify-content: center;
     text-align: center;
+    /* border: 2px solid red; */
+    
+}
+.international-section a{
+    text-decoration: none;
+    color: black;
+    margin-left: -80px;
+}
+.international-section a:hover{
+    text-decoration: underline;
+    color: rgb(44, 38, 38);
+}
+.card-box-padding{
+    padding: 5px;
 }
 .populer-card-img {
-    width: 160px;
-    height: 115px;
+    width: 155px;
+    height: 110px;
+}
+.international-section .part-1 .card-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*........................... Holidays Section .......................................... */
+.holiday-section{
+    padding: 10px;
+}
+.holiday-section .primary-div{
+    padding: 10px;
+}
+.holiday-section .primary-div .secoundary-one{
+    display: flex;
+}
+.holiday-section .primary-div .secoundary-one a{
+    margin-left: 10px;
 }
 
 /*........................... Footer section .......................................... */
