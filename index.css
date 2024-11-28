@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/*........................... navbar section .......................................... */
+.navbar {
+    height: 60px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.navbar .nav-logo .logo {
+    background-image: url("images/amazon-logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    /* transparent means background-color jemon temon hoye jabe; */
+    padding: 5px;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.navbar .nav-address .add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 9px;
+}
+
+.navbar .nav-address .add-icon {
+    display: flex;
+    align-items: center;
+    /* it's means hight and weight thke center e asbe */
+}
+
+.navbar .nav-address .add-icon .add-second {
+    margin-left: 5px;
+}
+
+.navbar .nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    /* background-color: pink; */
+    width: 680px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.navbar .nav-search:hover {
+    border: 2px solid orange;
+}
+
+.navbar .nav-search .search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+    /* by defoult boder null hoyjayga */
+}
+
+.navbar .nav-search .search-input {
+    /* width: 550px; */
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.navbar .nav-search .search-icon {
+    width: 50px;
+    /* center e ante hole mother ke dore kaj korte hobe */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* ai three lines code kore ana jay  */
+    background-color: #febd68;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.navbar .nav-sigin span {
+    font-size: 0.8rem;
+}
+
+.navbar .nav-sigin .account {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.navbar .nav-return span {
+    font-size: 0.8rem;
+}
+
+.navbar .nav-return .Orders {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav .nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* .panel-all .border */
+.panel .panel-ops {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 70%;
+}
+
+.panel .panel-ops a{
+    text-decoration: none;
+    color: white;
+}
+.panel .panel-ops a:hover{
+    text-decoration: underline;
+}
+.panel .palen-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/*........................... Hero section .......................................... */
+.hero-section .hero-img {
+    background-image: url("images/hero-section/backend.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-section .hero-img .hero-msg {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.85rem;
+    width: 80%;
+}
+
+.hero-section .hero-img .hero-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/*........................... Shpos section .......................................... */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    /** 8 ta ke 4 ta kore dice */
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 330px;
+    width: 24%;
+    /* border: 1px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.box-conttenr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.shop-section .box .box-conttenr a{
+    text-decoration: none;
+    
+}
+.shop-section .box .box-conttenr a:hover{
+    text-decoration: underline;
+}
+
+.box-img {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+}
+
+.box-conttenr p {
+    color: #007185;
+}
+
+/*........................... Populer Products .......................................... */
+.international-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.international-section .part-1 .card-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.populer-card-img {
+    width: 160px;
+    height: 115px;
+}
+
+/*........................... Footer section .......................................... */
+.back-to-top {
+    background-color: #37475A;
+    /* margin-bottom: 40px; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #232f3e;
+    color: white;
+    height: 250px;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: white;
+    font-size: .85rem;
+}
+.main-footer a:hover {
+    text-decoration: underline;
+}
+.main-footer .first {
+    display: flex;
+    flex-direction: column;
+}
+
+.first a {
+    text-decoration: none;
+    /* color: black; */
+    margin-bottom: 5px;
+}
+
+.main-footer .second {
+    display: flex;
+    flex-direction: column;
+}
+
+.second a {
+    text-decoration: none;
+    /* color: black; */
+    margin-bottom: 5px;
+}
+
+.main-footer .third {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+}
+
+.third a {
+    text-decoration: none;
+    /* color: black; */
+    margin-bottom: 5px;
+}
+
+.main-footer .fourth {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth a {
+    text-decoration: none;
+    /* color: black; */
+    margin-bottom: 5px;
+}
+
+
+/*...........................  RESPONSIVE PART .......................................... */
+@media(max-width: 768px) {
+
+    /** hero-section **/
+    .hero-section .hero-img .hero-msg {}
+
+    /** shop-section **/
+    .shop-section {
+        background-color: #e2e7e6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        height: 340px;
+        width: 320px;
+        /* border: 1px solid black; */
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 10px;
+        margin-left: 10%;
+
+    }
+
+}
